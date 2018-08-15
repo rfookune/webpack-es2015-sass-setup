@@ -2,6 +2,14 @@
 
 require('../scss/main.scss');
 
+// required by bootstrap 4
+window.Popper = require('popper.js').default;
+
+try {
+    window.$ = window.jQuery = require('jquery');
+    require('bootstrap');
+} catch (e) {}
+
 import { RandomGenerator } from './random-generator';
 
 const outputParagraph = document.querySelector('#outputParagraph');
