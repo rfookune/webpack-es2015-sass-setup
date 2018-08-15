@@ -22,7 +22,7 @@ This project might be useful when quick (local) development setup is needed, to 
   // OR
   $ npm run prod
   // OR
-  // $ npm run production
+  $ npm run production
 ```
 
 ## Watch Assets
