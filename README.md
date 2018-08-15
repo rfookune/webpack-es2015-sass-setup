@@ -2,6 +2,7 @@
 # webpack-es2015-sass-setup
 
 Sample webpack project with ES2015 and Sass.
+
 !! !! no webpack dev server -- using laravel valet for local dev server. !! !!
 
 This is a basic setup that only includes two main app files for demo purposes: `./src/js/app.js` and `./src/scss/main.scss`. You get the idea.
