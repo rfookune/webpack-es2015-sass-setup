@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "bundle": "./node_modules/.bin/webpack --config webpack.config.js",
-    "watch": "npm run bundle -- --watch",
+    "watch": "./node_modules/.bin/webpack --config webpack.config.js --watch ",
     "prod": "npm run bundle",
     "production": "npm run bundle"
   },
