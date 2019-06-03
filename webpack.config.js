@@ -12,7 +12,7 @@ module.exports = {
 		filename: 'js/bundle.js'
 	},
 
-	watch: true,
+	watch: process.argv.includes('watch'),
 
 	plugins: [
 		new ExtractTextPlugin('css/main.css')
